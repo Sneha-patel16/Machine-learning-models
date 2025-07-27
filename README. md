@@ -1,0 +1,66 @@
+README.md
+
+# 🎬 IMDb Movies India Analysis
+
+This project explores a dataset of Indian movies from IMDb. It includes data cleaning, exploratory data analysis (EDA), and basic machine learning for rating prediction. The goal is to extract useful patterns, handle missing values, and understand how movie features like genre, actors, and duration relate to ratings.
+
+---
+
+## 📌 Dataset Overview
+The dataset includes:
+- Movie **names**, **release years**, and **duration**
+- Genres (Drama, Comedy, etc.)
+- **Ratings** and **votes**
+- Details about **director** and lead actors
+
+---
+
+## 🛠️ Tools & Libraries Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- scikit-learn (LogisticRegression, RandomForest)
+
+---
+
+## 🔍 Key Steps
+1. **Data Loading & Cleaning**
+   - Handling missing values
+   - Removing duplicates
+2. **Exploratory Data Analysis**
+   - Genre distribution
+   - Rating trends
+   - Actor/director appearances
+3. **Modeling**
+   - Basic prediction using RandomForestRegressor
+   - Evaluation with RMSE and R² score
+
+---
+
+## 📈 Insights
+- Many movies have missing or unvoted ratings
+- Drama is the most common genre
+- Certain directors appear frequently across years
+
+---
+
+## 📂 Files
+- `IDMb_Movies_India_Analysis.ipynb`: Main notebook  
+- `IMDb Movies India.csv`: Dataset (local)
+
+---
+
+## 🚀 How to Run
+1. Clone this repo or upload the notebook to [Google Colab](https://colab.research.google.com/)  
+2. Upload the dataset file when prompted  
+3. Run each cell in order
+
+---
+
+## 🧑‍💻 Author
+**Sneha Patel** – Data Science Enthusiast from Indore  
+Email: [patel.snehaji16@gmail.com](mailto:patel.snehaji16@gmail.com)
+
+---
